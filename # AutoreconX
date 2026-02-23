@@ -1,0 +1,18 @@
+# R3c0n-Blip-X
+
+R3c0n-Blip-X is an automated reconnaissance framework focused on subdomain enumeration and basic network scanning.  
+It combines multiple subdomain discovery tools together with Nmap to speed up the recon phase for bug bounty and penetration testing.
+
+## Features
+
+- Multiple subdomain enumeration tools in a single workflow  
+- Automatic subdomain deduplication and output saving  
+- Integration with Nmap for port scanning of discovered hosts  
+- Simple command-line usage, suitable for beginners and intermediate users
+
+## Installation
+
+```bash
+git clone https://github.com/ambuj9004-blip/R3c0n-Blip-X.git
+cd R3c0n-Blip-X
+chmod +x recon-blip-x.sh        # or your main script name
